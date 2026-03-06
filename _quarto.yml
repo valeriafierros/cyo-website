@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "cyo-website"
@@ -8,11 +9,14 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - projects.qmd
+      - reading.qmd
+      - resume.qmd
 
 format:
   html:
     theme:
-      - cosmo
+      - quartz
       - brand
     css: styles.css
     toc: true
