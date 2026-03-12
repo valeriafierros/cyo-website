@@ -1,3 +1,7 @@
 ---
-title: "projects"
+title: "Projects"
 ---
+
+#formatted as a blog –\> one post with code, output, writing about what im doing and why
+
+#at least one post with a project or paper description (salamander conservation plan?)

@@ -13,3 +13,5 @@ about:
     - text: Email
       href: valeriafierros@ucsb.edu
 ---
+
+#photo and bio

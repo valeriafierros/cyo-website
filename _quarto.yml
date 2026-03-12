@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "cyo-website"
+  title: "Valeria Fierros"
   navbar:
     left:
       - href: index.qmd

@@ -2,4 +2,8 @@
 title: "About"
 ---
 
-hello
+# 
+
+#at least 3 photos and sections
+
+# 
