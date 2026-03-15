@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "#at least 3 photos and sections\n\n\nEducation\nWork\nhello"
+    "text": "About me 😁\nHi!! My name is Valeria Fierros :) I am currently a 4th year attending the University of California, Santa Barbara (UCSB). I am majoring in Environmental Studies (Bachelor’s of Science) with a concentration in Ecology, Evolution, and Marine Biology.\n\n\nEducation & Experience 👩‍🎓\n\n\nInterests 🪴"
   },
   {
     "objectID": "reading.html",
@@ -25,6 +25,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "#formatted as a blog –&gt; one post with code, output, writing about what im doing and why\n#at least one post with a project or paper description (salamander conservation plan?)"
+    "text": "Data Analysis Project\nPersonal research collection and visualization for ENVS 193DS course at UCSB. I collected data on my daily step count for six weeks, and compiled them into a visualization to see patterns in activity.\n\nstepsplot &lt;- steps |&gt; #calling in dataframe\n  mutate(`day.of.week` = factor(`day.of.week`,#modifying the day of week column and converting day of week into a factor (categorical variable)\n                                levels = c(\"M\", \"T\", \"W\", \"Th\", \"F\", \"Sa\", \"Su\"), #specify levels\n                                ordered = TRUE)) #keep in order\n\nplot &lt;- ggplot(steps, #calling in ggplot visualization and specifying dataset\n       aes(x = `day.of.week`, #make x axis\n           y = `steps.taken`, #make y axis\n           fill = `day.of.week`))+ #fill in bar colors by day of the week\n  stat_summary(fun = mean, #using the mean to summarize the y values\n               geom = \"bar\")+ #making a bar chart\n  labs(title = \"Daily Step Count By Day of Week\", #titling the graph\n       x = \"Day of Week\", #labelling x axis\n       y = \"Steps Taken\")+ #labelling y axis\n  scale_fill_manual(values = c( #manually setting colors for each day of the week\n    \"M\" = \"red\", #monday = red\n    \"T\" = \"orange\", # tuesday = orange\n    \"W\" = \"yellow\", #wednesday = yellow\n    \"Th\" = \"green\", #thursday = green\n    \"F\" = \"blue\", #friday = blue\n    \"Sa\" = \"violet\", # saturday = purple\n    \"Su\" = \"hotpink\" #sunday = pink\n  ),\n  drop = FALSE)+ #keep all the factors (days) in even if they have no data yet\n  theme_minimal()+ #changin theme from the default\n  theme(legend.position = \"none\") #removing legend\n\nggplotly(plot)"
   }
 ]

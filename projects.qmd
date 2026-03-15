@@ -2,6 +2,52 @@
 title: "Projects"
 ---
 
-#formatted as a blog –\> one post with code, output, writing about what im doing and why
+```{r}
+#| message: false
+#| warning: false
+#| echo: false
+library(tidyverse)
+library(plotly)
 
-#at least one post with a project or paper description (salamander conservation plan?)
+steps <- read.csv("cyopersonaldata - Sheet1.csv")
+```
+
+# Data Analysis Project
+
+This project was a personal research collection and visualization for ENVS 193DS course at UCSB. I collected data on my daily step count for six weeks, and compiled them into a visualization to see patterns in activity.
+
+```{r}
+stepsplot <- steps |> #calling in dataframe
+  mutate(`day.of.week` = factor(`day.of.week`,#modifying the day of week column and converting day of week into a factor (categorical variable)
+                                levels = c("M", "T", "W", "Th", "F", "Sa", "Su"), #specify levels
+                                ordered = TRUE)) #keep in order
+
+plot <- ggplot(steps, #calling in ggplot visualization and specifying dataset
+       aes(x = `day.of.week`, #make x axis
+           y = `steps.taken`, #make y axis
+           fill = `day.of.week`))+ #fill in bar colors by day of the week
+  stat_summary(fun = mean, #using the mean to summarize the y values
+               geom = "bar")+ #making a bar chart
+  labs(title = "Daily Step Count By Day of Week", #titling the graph
+       x = "Day of Week", #labelling x axis
+       y = "Steps Taken")+ #labelling y axis
+  scale_fill_manual(values = c( #manually setting colors for each day of the week
+    "M" = "red", #monday = red
+    "T" = "orange", # tuesday = orange
+    "W" = "yellow", #wednesday = yellow
+    "Th" = "green", #thursday = green
+    "F" = "blue", #friday = blue
+    "Sa" = "violet", # saturday = purple
+    "Su" = "hotpink" #sunday = pink
+  ),
+  drop = FALSE)+ #keep all the factors (days) in even if they have no data yet
+  theme_minimal()+ #changin theme from the default
+  theme(legend.position = "none") #removing legend
+
+ggplotly(plot)
+
+```
+
+(insert affetive vizualization here!)
+
+# Project #2: Conservation Plan
