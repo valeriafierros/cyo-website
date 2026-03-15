@@ -2,4 +2,44 @@
 title: "Interests"
 ---
 
-# Concerts 
+# Interests
+
+## Reading
+
+Reading is one of my favorite ways to relax. I enjoy reading literary fiction and contemporary novels; I've also recently been getting into reading classics!
+
+You can see what I'm currently reading here:
+
+[Currently Reading](https://www.goodreads.com/user/email_signature_destination/56111941?utm_medium=reading_link&utm_source=email_signature)
+
+[![Book Cover](https://www.goodreads.com/user/email_signature_cover/56111941){alt="Book Cover"}](https://www.goodreads.com/user/email_signature_destination/56111941?utm_medium=cover&utm_source=email_signature)
+
+[![Goodreads Logo](https://s.gr-assets.com/assets/icons/goodreads_icon_32x32-6c9373254f526f7fdf2980162991a2b3.png){alt="Goodreads Logo"}](https://www.goodreads.com/?utm_medium=gr_logo&utm_source=email_signature)
+
+## Concerts
+
+I also love listening to music and seeing my favorite artists live in concert whenever I get the chance. Some of my favorites have been Taylor Swift, Harry Styles, Del Water Gap, and Niall Horan. Here are some photos from these shows and a Spotify playlist of my favorite songs right now!
+
+::::::: columns
+::: {.column width="25%"}
+![Taylor Swift](taylorswift.HEIC)
+:::
+
+::: {.column width="25%"}
+![Harry Styles](harry.HEIC)
+:::
+
+::: {.column width="25%"}
+![Del Water Gap](dwg.HEIC)
+:::
+
+::: {.column width="25%"}
+![Niall Horan](niall.HEIC)
+:::
+:::::::
+
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5k3wRGD7JCephVaaqETq8S?utm_source=generator&amp;theme=0" width="100%" height="352" frameBorder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+
+</iframe>
+
+## Crochet

@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-# About me 
+# About me
 
 Hi!! My name is Valeria Fierros and I am an Environmental Studies student with a concentration in Ecology, Evolution, and Marine Biology at the University of California, Santa Barbara. Through my coursework and research experiences, I've developed interests in wildlife ecology, conservation planning, and environmental data analysis. I enjoy working with ecological data and learning how field and lab research can help us better understand and protect ecosystems.
 
@@ -10,7 +10,7 @@ I've gained hand-on experience through fieldwork and research projects, includin
 
 Outside of school, I enjoy creative and relaxing hobbies like reading, crocheting, and attending concerts!
 
-# Education & Experience 
+# Education 
 
 ## Education
 
@@ -21,6 +21,8 @@ Bachelor of Science in Environmental Studies
 Concentration: Ecology, Evolution, and Marine Biology
 
 Expected Graduation: June 2026
+
+# Experience
 
 ## Experience
 
@@ -65,43 +67,3 @@ August 2021 - June 2022
 -   Collected and analyzed data samples from the Ventura River and Ventura River Estuary to evaluate water quality
 
 -   Set up field trails cameras at the Ventura River to capture images and data of local species populations
-
-# Interests 
-
-## Reading
-
-Reading is one of my favorite ways to relax. I enjoy reading literary fiction and contemporary novels; I've also recently been getting into reading classics!
-
-You can see what I'm currently reading here:
-
-<iframe src="https://www.goodreads.com/user/show/56111941-vale" height="600">
-
-</iframe>
-
-## Concerts
-
-I also love listening to music and seeing my favorite artists live in concert whenever I get the chance. Some of my favorites have been Taylor Swift, Harry Styles, Del Water Gap, and Niall Horan. Here are some photos from these shows and a Spotify playlist of my favorite songs right now!
-
-## Concerts
-
-I love going to concerts and seeing my favorite artists live. Here are some shows I’ve been to!
-
-::::::: columns
-::: {.column width="25%"}
-![Taylor Swift](taylorswift.HEIC)
-:::
-
-::: {.column width="25%"}
-![Harry Styles](harry.HEIC)
-:::
-
-::: {.column width="25%"}
-![Del Water Gap](dwg.HEIC)
-:::
-
-::: {.column width="25%"}
-![Niall Horan](niall.HEIC)
-:::
-:::::::
-
-## Crochet
