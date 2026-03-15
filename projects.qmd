@@ -48,7 +48,7 @@ ggplotly(plot)
 
 ```
 
-(insert affetive vizualization here!)
+![Affective Data Visualization](IMG_2226.HEIC)
 
 # Project #2: Conservation Plan
 
