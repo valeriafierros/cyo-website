@@ -9,7 +9,7 @@ about:
   links: 
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/feed/
+      href: https://www.linkedin.com/in/valeria-fierros-7b4970366
     - icon: github
       text: GitHub
       href: https://github.com/valeriafierros/valeriafierros.github.io
