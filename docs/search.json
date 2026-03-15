@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About me\nHi!! My name is Valeria Fierros :)\n\n\nEducation & Experience\nI am currently a 4th year attending the University of California, Santa Barbara (UCSB). I am majoring in Environmental Studies (Bachelor’s of Science) with a concentration in Ecology, Evolution, and Marine Biology.\n\n\nInterests"
+    "text": "Hi!! My name is Valeria Fierros and I am an Environmental Studies student with a concentration in Ecology, Evolution, and Marine Biology at the University of California, Santa Barbara. Through my coursework and research experiences, I’ve developed interests in wildlife ecology, conservation planning, and environmental data analysis. I enjoy working with ecological data and learning how field and lab research can help us better understand and protect ecosystems.\nI’ve gained hand-on experience through fieldwork and research projects, including assisting with ecological research here at UCSB. These experiences have helped me develop very useful skills in data collection, analysis, and scientific communication.\nOutside of school, I enjoy creative and relaxing hobbies like reading, crocheting, and attending concerts!"
   },
   {
     "objectID": "reading.html",
@@ -25,6 +25,48 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Data Analysis Project\nThis project was a personal research collection and visualization for ENVS 193DS course at UCSB. I collected data on my daily step count for six weeks, and compiled them into a visualization to see patterns in activity.\n\nstepsplot &lt;- steps |&gt; #calling in dataframe\n  mutate(`day.of.week` = factor(`day.of.week`,#modifying the day of week column and converting day of week into a factor (categorical variable)\n                                levels = c(\"M\", \"T\", \"W\", \"Th\", \"F\", \"Sa\", \"Su\"), #specify levels\n                                ordered = TRUE)) #keep in order\n\nplot &lt;- ggplot(steps, #calling in ggplot visualization and specifying dataset\n       aes(x = `day.of.week`, #make x axis\n           y = `steps.taken`, #make y axis\n           fill = `day.of.week`))+ #fill in bar colors by day of the week\n  stat_summary(fun = mean, #using the mean to summarize the y values\n               geom = \"bar\")+ #making a bar chart\n  labs(title = \"Daily Step Count By Day of Week\", #titling the graph\n       x = \"Day of Week\", #labelling x axis\n       y = \"Steps Taken\")+ #labelling y axis\n  scale_fill_manual(values = c( #manually setting colors for each day of the week\n    \"M\" = \"red\", #monday = red\n    \"T\" = \"orange\", # tuesday = orange\n    \"W\" = \"yellow\", #wednesday = yellow\n    \"Th\" = \"green\", #thursday = green\n    \"F\" = \"blue\", #friday = blue\n    \"Sa\" = \"violet\", # saturday = purple\n    \"Su\" = \"hotpink\" #sunday = pink\n  ),\n  drop = FALSE)+ #keep all the factors (days) in even if they have no data yet\n  theme_minimal()+ #changin theme from the default\n  theme(legend.position = \"none\") #removing legend\n\nggplotly(plot)\n\n\n\n\n\n(insert affetive vizualization here!)\n\n\nProject #2: Conservation Plan\nThis was a conservation plan I helped put together for ENVS 137 - Conservation Planning. My group and I researched an endangered species (the Chinese Giant Salamander) , and created a comprehensive plan for their conservation and restoration.\nTake a look here!"
+    "text": "Data Analysis Project\nThis project was a personal research collection and visualization for ENVS 193DS course at UCSB. I collected data on my daily step count for six weeks, and compiled them into a bar graph to see patterns in activity (hover over each bar to see the total step counts!). I then made my data into an affective visualization in which I crocheted individual squares to represent the step count for each day. See a picture of that right below the graph!\n\nstepsplot &lt;- steps |&gt; #calling in dataframe\n  mutate(`day.of.week` = factor(`day.of.week`,#modifying the day of week column and converting day of week into a factor (categorical variable)\n                                levels = c(\"M\", \"T\", \"W\", \"Th\", \"F\", \"Sa\", \"Su\"), #specify levels\n                                ordered = TRUE)) #keep in order\n\nplot &lt;- ggplot(steps, #calling in ggplot visualization and specifying dataset\n       aes(x = `day.of.week`, #make x axis\n           y = `steps.taken`, #make y axis\n           fill = `day.of.week`))+ #fill in bar colors by day of the week\n  stat_summary(fun = mean, #using the mean to summarize the y values\n               geom = \"bar\")+ #making a bar chart\n  labs(title = \"Daily Step Count By Day of Week\", #titling the graph\n       x = \"Day of Week\", #labelling x axis\n       y = \"Steps Taken\")+ #labelling y axis\n  scale_fill_manual(values = c( #manually setting colors for each day of the week\n    \"M\" = \"red\", #monday = red\n    \"T\" = \"orange\", # tuesday = orange\n    \"W\" = \"yellow\", #wednesday = yellow\n    \"Th\" = \"green\", #thursday = green\n    \"F\" = \"blue\", #friday = blue\n    \"Sa\" = \"violet\", # saturday = purple\n    \"Su\" = \"hotpink\" #sunday = pink\n  ),\n  drop = FALSE)+ #keep all the factors (days) in even if they have no data yet\n  theme_minimal()+ #changin theme from the default\n  theme(legend.position = \"none\") #removing legend\n\nggplotly(plot)\n\n\n\n\n\n(insert affetive vizualization here!)\n\n\nProject #2: Conservation Plan\nThis was a conservation plan I helped put together for ENVS 137 - Conservation Planning. My group and I researched an endangered species (the Chinese Giant Salamander) , and created a comprehensive plan for their conservation and restoration.\nTake a look here!"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nUniversity of California, Santa Barbara\nBachelor of Science in Environmental Studies\nConcentration: Ecology, Evolution, and Marine Biology\nExpected Graduation: June 2026"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nUndergrad EEMB Research Assistant\nGoleta, CA | University of California, Santa Barbara - Cheadle Center for Biodiversity and Ecological Restoration\nSeptember 2025 - Present\n\nImaged plant fragments using microscopy techniques for microhistological analysis\nCollected and organized high-resolution images to assist in plant species identification from cattle fecal samples\nMaintained and calibrated laboratory microscopes and imaging equipment\nCataloged and managed digital image datasets for use in ecological research\nOrganized image data in excel spreadsheets\n\nSanta Cruz Island Restoration Intern\nChannel Islands National Park| California Institute of Environmental Studies\nJanuary 2022 - June 2022\n\nAided in field work of behavioral research of the Santa Cruz Island raven population\n\n\n\nConfigured and used various field tools and equipment as well as collected data for several hours to assist in ongoing research projects\nHarvested and collected data from Santa Cruz Island native and invasive plant species\n\nEnvironmental Field Studies Student\nVentura, CA\nAugust 2021 - June 2022\n\nParticipated in various field experiences in collaboration with the Santa Barbara Channel Keeper\nCollected and analyzed data samples from the Ventura River and Ventura River Estuary to evaluate water quality\nSet up field trails cameras at the Ventura River to capture images and data of local species populations"
+  },
+  {
+    "objectID": "about.html#reading",
+    "href": "about.html#reading",
+    "title": "About",
+    "section": "Reading",
+    "text": "Reading\nReading is one of my favorite ways to relax. I enjoy reading literary fiction and contemporary novels; I’ve also recently been getting into reading classics!\nYou can see what I’m currently reading here:"
+  },
+  {
+    "objectID": "about.html#concerts",
+    "href": "about.html#concerts",
+    "title": "About",
+    "section": "Concerts",
+    "text": "Concerts\nI also love listening to music and seeing my favorite artists live in concert whenever I get the chance. Some of my favorites have been Taylor Swift, Harry Styles, Del Water Gap, and Niall Horan. Here are some photos from these shows and a Spotify playlist of my favorite songs right now!"
+  },
+  {
+    "objectID": "about.html#crochet",
+    "href": "about.html#crochet",
+    "title": "About",
+    "section": "Crochet",
+    "text": "Crochet"
+  },
+  {
+    "objectID": "about.html#concerts-1",
+    "href": "about.html#concerts-1",
+    "title": "About",
+    "section": "Concerts",
+    "text": "Concerts\nI love going to concerts and seeing my favorite artists live. Here are some shows I’ve been to!\n\n\n\n\n\nTaylor Swift\n\n\n\n\n\n\nHarry Styles\n\n\n\n\n\n\nDel Water Gap\n\n\n\n\n\n\nNiall Horan"
   }
 ]
