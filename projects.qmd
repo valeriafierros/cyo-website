@@ -12,7 +12,7 @@ library(plotly)
 steps <- read.csv("cyopersonaldata - Sheet1.csv")
 ```
 
-# Data Analysis Project
+# Project #1: Data Analysis
 
 This project was a personal research collection and visualization for ENVS 193DS course at UCSB. I collected data on my daily step count for six weeks, and compiled them into a bar graph to see patterns in activity (hover over each bar to see the total step counts!). I then made my data into an affective visualization in which I crocheted individual squares to represent the step count for each day. See a picture of that right below the graph!
 
