@@ -22,19 +22,19 @@ I also love listening to music and seeing my favorite artists live in concert wh
 
 ::::::: columns
 ::: {.column width="25%"}
-![Taylor Swift](taylorswift.HEIC)
+![Taylor Swift](taylorswift.jpg)
 :::
 
 ::: {.column width="25%"}
-![Harry Styles](harry.HEIC)
+![Harry Styles](harry.jpg)
 :::
 
 ::: {.column width="25%"}
-![Del Water Gap](dwg.HEIC)
+![Del Water Gap](dwg.jpg)
 :::
 
 ::: {.column width="25%"}
-![Niall Horan](niall.HEIC)
+![Niall Horan](niall.jpg)
 :::
 :::::::
 
