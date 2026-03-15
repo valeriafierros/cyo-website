@@ -1,17 +1,23 @@
 ---
 title: "Valeria Fierros"
 toc: false
+image: removed.png
 about: 
   template: jolla
-  image-shape: round
-  image-width: 17em
+  image-shape: rounded
+  image-width: 13em
   links: 
-    - text: LinkedIn
+    - icon: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/feed/
-    - text: GitHub
+    - icon: github
+      text: GitHub
       href: https://github.com/valeriafierros/valeriafierros.github.io
-    - text: Email
+    - icon: at
+      text: Email
       href: valeriafierros@ucsb.edu
 ---
 
-#photo and bio
+### Welcome!
+
+I am a fourth-year Environmental Studies B.S. student at UC Santa Barbara. I am an intern at the Cheadle Center for Biodiversity & Ecological Restoration working on a PhD student's plant research. I am also interested in wildlife research and hope to pursue that in my post-grad career. Here you can find links to some of my other stuff (LinkedIn, Github, email) and more to learn about me!

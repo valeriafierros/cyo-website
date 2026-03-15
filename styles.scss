@@ -1,0 +1,20 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Flavors&display=swap');
+
+/* Change navbar background */
+.navbar {
+  background-color: #eb3f79 !important;  /* your color */
+}
+
+/* about page link buttons*/
+.about-link {
+  background-color: transparent;
+  color: black;
+  border-radius: 10px;
+}
+
+.about-link:hover{
+  background-color: #c7f761;
+  color: black;
+}
+

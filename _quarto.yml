@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Valeria Fierros"
+  favicon: Logo maker project.png
   navbar:
     left:
       - href: index.qmd
@@ -16,9 +17,8 @@ website:
 format:
   html:
     theme:
-      light: quartz
-      dark: vapor
-    css: styles.css
+      - sketchy
+      - styles.scss 
     toc: true
 
 editor: visual

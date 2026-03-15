@@ -4,6 +4,27 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "hello"
+    "text": "#at least 3 photos and sections\n\n\nEducation\nWork\nhello"
+  },
+  {
+    "objectID": "reading.html",
+    "href": "reading.html",
+    "title": "Interests",
+    "section": "",
+    "text": "music & concerts\nreading"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Valeria Fierros",
+    "section": "",
+    "text": "#photo and bio"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "#formatted as a blog –&gt; one post with code, output, writing about what im doing and why\n#at least one post with a project or paper description (salamander conservation plan?)"
   }
 ]
